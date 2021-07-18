@@ -2,7 +2,8 @@
     background-color: #fff159;
     width: 100vw;
     height: 100px;
-    font-family:monospace
+    font-family:monospace;
+    
 }
 
 /* ---------------nav-bar__1---------------------- */
@@ -21,6 +22,9 @@
     width: 598px;
     height: 39px;
     margin: 10px 100px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px #999;
 }
 
 .nav-bar__1 .offerts {
@@ -37,7 +41,12 @@
 }
 
 .nav-bar__2 .location {
-    padding: 0px 30px 8px ;
+    padding: 0px 30px 8px;
+    color: #33333399;
+}
+
+.nav-bar__2 .location:hover{
+    border: 1px solid black;
 }
 
 .nav-bar__2 .nav-bar__2__categories  {
@@ -48,7 +57,11 @@
 .nav-bar__2 .nav-bar__2__categories a {
     text-decoration: none;
     padding: 10px;
-    
+    color: #33333399;
+}
+
+.nav-bar__2 .nav-bar__2__categories a:hover{
+    color: black;
 }
 
 /* ---------------------nav-bar__2__userlogin----------- */
@@ -56,5 +69,32 @@
 .nav-bar__2__userlogin a {
     text-decoration: none;
     margin-right: 10px;
+    color: #33333399;
+}
+
+.nav-bar__2__userlogin a:hover{
+    color: black;
+}
+
+/* -----------------media queries-------------------------------- */
+@media screen and (max-width: 1370px) {
+
+    .nav-bar__1 .offerts{
+        display: none;
+    }
+
+ .nav-bar__2 .nav-bar__2__categories{
+     display: none;
+ }
+
+ .nav-bar__2__userlogin{
+     display: none;
+ }
+
+ /* ------------nav-bar__1__searchbar------------------ */
+
+ .nav-bar__1 .nav-bar__1__searchbar{
+     width: 100vw;
+ }
 }
     
