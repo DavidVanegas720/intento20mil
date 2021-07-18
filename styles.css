@@ -1,42 +1,60 @@
-
-.nav-bar__1 {
-    border: 2px solid red;
+.nav-bar{
     background-color: #fff159;
+    width: 100vw;
+    height: 100px;
+    font-family:monospace
 }
 
-.nav-bar__2 {
-    border: 2px solid black;
-    background-color: #fff159;
-}
-/* ----------------------------------------------------- */
-.nav-bar__1 {
+/* ---------------nav-bar__1---------------------- */
+.nav-bar__1{
     display: flex;
-    justify-content: space-evenly;
-    align-content: center;
+    justify-content: space-between;
 }
 
 .nav-bar__1 .logo {
-    margin: 10px  0px;
-    height: 34px;
     width: 134px;
+    height: 34px;
+    margin: auto;
 }
 
-.nav-bar__1 .nav-bar__1__search {
-    margin: 10px;
+.nav-bar__1 .nav-bar__1__searchbar {
     width: 598px;
-    height: 56px;
+    height: 39px;
+    margin: 10px 100px;
 }
 
 .nav-bar__1 .offerts {
-    margin: 10px;
     width: 340px;
     height: 39px;
+    margin: auto;
 }
-/* ---------------------------------------------------------- */
 
-.nav-bar .nav-bar__2 {
+/* ----------------nav-bar__2----------------- */
+.nav-bar__2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center
 }
 
+.nav-bar__2 .location {
+    padding: 0px 30px 8px ;
+}
 
+.nav-bar__2 .nav-bar__2__categories  {
+    margin-right: 350px;
+    
+}
+
+.nav-bar__2 .nav-bar__2__categories a {
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+/* ---------------------nav-bar__2__userlogin----------- */
+
+.nav-bar__2__userlogin a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+    
